@@ -42,7 +42,6 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 python src/pipeline.py
 python src/build_notebook.py
-python src/build_reports.py
 ```
 
 Для просмотра ноутбука:
