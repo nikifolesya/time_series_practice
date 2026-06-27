@@ -20,10 +20,6 @@
 │   └── processed/           # очищенный ряд с признаками и результатами
 ├── notebooks/
 │   └── anomaly_detection_project.ipynb
-├── reports/
-│   ├── practice_report.pdf
-│   ├── practice_diary.pdf
-│   └── practice_diary_template.md
 ├── results/
 │   ├── figures/             # итоговые графики
 │   ├── forecast_metrics.csv
@@ -68,13 +64,6 @@ jupyter lab notebooks/anomaly_detection_project.ipynb
 ## Итоговые материалы
 
 - [Ноутбук](notebooks/anomaly_detection_project.ipynb)
-- [Отчёт](reports/practice_report.pdf)
-- [Дневник](reports/practice_diary.pdf)
 - Метрики прогноза: `results/forecast_metrics.csv`
 - Метрики обнаружения: `results/anomaly_metrics.csv`
 
-## Перед сдачей
-
-1. Заполнить ФИО, группу, руководителя и ссылку на GitFlic на титульном листе отчёта.
-2. Заполнить личные данные, сроки и подписи в дневнике либо перенести готовое содержание в утверждённый вузом бланк.
-3. Создать личный репозиторий GitFlic, загрузить содержимое проекта и вставить ссылку в отчёт.
