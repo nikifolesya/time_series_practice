@@ -1,0 +1,28 @@
+{
+  "data_audit": {
+    "raw_rows": 22695,
+    "raw_columns": 2,
+    "missing_values": 0,
+    "duplicate_timestamps": 12,
+    "clean_rows": 22683,
+    "missing_after_reindex": 0,
+    "remaining_missing": 0,
+    "start": "2013-12-02 21:15:00",
+    "end": "2014-02-19 15:25:00",
+    "frequency": "5 minutes"
+  },
+  "forecast": {
+    "hourly_observations": 1891,
+    "train_observations": 1512,
+    "test_observations": 379,
+    "split_timestamp": "2014-02-03 21:00:00",
+    "sarima_aic": 7673.316860441322
+  },
+  "anomaly_detection": {
+    "true_anomalous_points": 2268,
+    "true_anomaly_share_percent": 9.998677423621215,
+    "reference_windows": 4
+  },
+  "best_forecast_model_by_rmse": "sarima",
+  "best_anomaly_method_by_f1": "isolation_forest"
+}
